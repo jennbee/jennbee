@@ -1,0 +1,13 @@
+/*
+   Theme Name: Sela Child
+   Description: This is a custom child theme I have created.
+   Template: Sela
+   Version: 1.1 
+*/
+   
+@import url("../sela/style.css");
+
+body {
+    font: 17px/1.65 'Handlee', cursive;
+}
+

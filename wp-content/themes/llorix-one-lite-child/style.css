@@ -1,0 +1,59 @@
+/*
+   Theme Name: Llorix One Lite Child
+   Theme URI: https://www.themeisle.com/ 
+   Description: This is a custom child theme I have created.
+   Author: Chuck Norris Author
+   URI: https://www.themeisle.com/ 
+   Template: llorix-one-lite
+   Version: 0.1 
+   */
+
+@import url("../llorix-one-lite/style.css");
+
+body {
+    color: #4C5454;
+}
+
+h3, h5 {
+    font-family: 'Handlee', cursive;
+}
+
+.standard-button, .navbar-register-button {
+    color: #ffffff;
+    background: rgba(219, 83, 117, 0.51);
+    border-color: #db5375;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 3px solid #db5375;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.standard-button:hover,
+.navbar-register-button:hover {
+	color: #ffffff;
+	background: #db5375;
+	text-decoration: none;
+	border-color: #db5375;
+}
+    
+.very-top-header {
+    background: #1EA896;
+    color: #FFF;
+}
+
+.colored-line-left, .colored-line-right, .colored-line {
+    background: #db5375;
+}
+
+.section-header h2 {
+    color: #1EA896;
+}
+
+.services-wrap p {
+    color: #4C5454;
+}
+
+.single-service {
+    padding: 0 20px;
+}
