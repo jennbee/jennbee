@@ -11,20 +11,98 @@
 @import url("../llorix-one-lite/style.css");
 
 body {
-    color: #4C5454;
+    color: #26547C;
+    font-family: andika, sans-serif;
 }
 
-h3, h5 {
-    font-family: 'Handlee', cursive;
+/* //////////// FRONT PAGE STYLES //////////// */
+a {
+	color: #F45B69;
+}
+
+a:hover {
+	color: #F45B69;
+}
+
+
+.sticky-navigation .main-navigation a {
+    color: #26547C;
+}
+
+.sticky-navigation .main-navigation li:hover > a {
+	color: #F45B69;
+}
+
+.single-service h3 {
+    font-family: bree-serif, sans-serif;
+    color: #F45B69;
+}
+
+.team .section-overlay-layer,
+.call-to-action .section-overlay-layer {
+    background: rgba(255, 209, 102, 0.79);
+}
+
+.dark-text {
+    color: #26547C;
+}
+
+h5.colored-text {
+    color: #F45B69;
+}
+
+.fa {
+    color: #FFD166;
+}
+
+.footer {
+    color: #26547C;
+}
+
+.footer, .footer a {
+    background-color: #06D6A0;
+}
+
+.powered-by a {
+    color: #FFF;
+}
+
+/* Blog Post titles */
+.timeline-box-wrap .info h1 a {
+    font-family: bree-serif, sans-serif;
+    color: #26547C;
+}
+
+.timeline-box-wrap .info h1 a:hover {
+    color: #F45B69;
+}
+
+.timeline h2,
+.section-overlay-layer h2 {
+    font-family: bree-serif, sans-serif;
+}
+
+.timeline-box-wrap .info h1:after {
+    background: #F45B69;
+}
+
+.timeline-box-wrap .info .entry-content p {
+    font-family: andika, sans-serif;
+    color: #26547C;
+}
+
+button.control_next,
+button.control_prev {
+	color: #F45B69;
 }
 
 .standard-button, .navbar-register-button {
     color: #ffffff;
     background: rgba(219, 83, 117, 0.51);
-    border-color: #db5375;
+    border-color: #F45B69;
     text-decoration: none;
     border-radius: 30px;
-    border: 3px solid #db5375;
+    border: 3px solid #F45B69;
     padding: 10px 25px;
     font-size: 20px;
 }
@@ -32,28 +110,92 @@ h3, h5 {
 .standard-button:hover,
 .navbar-register-button:hover {
 	color: #ffffff;
-	background: #db5375;
+	background: #F45B69;
 	text-decoration: none;
-	border-color: #db5375;
+	border-color: #F45B69;
 }
     
-.very-top-header {
-    background: #1EA896;
-    color: #FFF;
+.colored-line-left, .colored-line-right, .colored-line {
+    background: #F45B69;
 }
 
-.colored-line-left, .colored-line-right, .colored-line {
-    background: #db5375;
+.team .colored-line {
+    background: #26547C;
 }
 
 .section-header h2 {
-    color: #1EA896;
+    color: #26547C;
+    font-family: bree-serif, sans-serif;
 }
 
 .services-wrap p {
-    color: #4C5454;
+    color: #26547C;
 }
 
 .single-service {
     padding: 0 20px;
+}
+
+/* //////////// BLOG PAGE STYLES //////////// */
+
+.archive-top-big-title {
+    font-family: delius, sans-serif;
+}
+
+.post-list h1.entry-title {
+    font-family: delius, sans-serif;
+
+}
+
+.post-list h1.entry-title a {
+	color: #26547C;
+}
+
+.post-list h1.entry-title a:hover {
+	color: #F45B69;
+	text-decoration: none;
+}
+
+.border-bottom-hover:hover {
+	border-bottom-color: #F45B69;
+}
+
+.post-img-wrap .post-date {
+    background: rgba(38, 84, 124, 0.62);
+}
+
+
+/* //////////// BLOG POST STYLES //////////// */
+
+
+h1.single-title {
+    font-family: delius, sans-serif;
+    color: #26547C;
+}
+
+.entry-content h2 {
+    color: #abc123;
+}
+
+/* comment button */
+.comment-form .form-submit input, #recaptcha-submit-btn-area input {
+	background: #F7F8FA;
+	border: 1px solid #eaebec;
+	color: #F45B69;
+}
+
+.comment-form .form-submit input:hover, #recaptcha-submit-btn-area input:hover {
+    background: rgba(244, 91, 105, 0.56);
+    border: 1px solid #F45B69;
+    color: #FFF;
+}
+
+/* //////////// SIDEBAR STYLES //////////// */
+
+#sidebar-secondary .widget-title {
+    color: #FFD166;
+}
+
+#sidebar-secondary .widget ul:not(.recentcomments) li a:hover {
+    color: #F45B69;
 }

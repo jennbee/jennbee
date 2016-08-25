@@ -11,7 +11,9 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+<script src="//use.edgefonts.net/delius.js"></script>
+<script src="//use.edgefonts.net/bree-serif.js"></script>
+<script src="//use.edgefonts.net/andika.js"></script>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
