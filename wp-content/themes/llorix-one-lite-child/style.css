@@ -15,7 +15,6 @@ body {
     font-family: andika, sans-serif;
 }
 
-/* //////////// FRONT PAGE STYLES //////////// */
 a {
 	color: #F45B69;
 }
@@ -24,6 +23,7 @@ a:hover {
 	color: #F45B69;
 }
 
+/* //////////// FRONT PAGE STYLES //////////// */
 
 .sticky-navigation .main-navigation a {
     color: #26547C;
@@ -33,6 +33,13 @@ a:hover {
 	color: #F45B69;
 }
 
+.section-header h2,
+.brief h2,
+.timeline h2 {
+    font-family: bree-serif, sans-serif;
+    color: #26547C;
+}
+
 .single-service h3 {
     font-family: bree-serif, sans-serif;
     color: #F45B69;
@@ -40,11 +47,11 @@ a:hover {
 
 .team .section-overlay-layer,
 .call-to-action .section-overlay-layer {
-    background: rgba(255, 209, 102, 0.79);
+    background: rgba(38, 84, 124, 0.7);
 }
 
-.dark-text {
-    color: #26547C;
+.team .colored-line {
+    background: #FFD166;
 }
 
 h5.colored-text {
@@ -56,11 +63,22 @@ h5.colored-text {
 }
 
 .footer {
-    color: #26547C;
+    color: #FFD166;
 }
 
 .footer, .footer a {
-    background-color: #06D6A0;
+    background-color: #26547C;
+}
+
+.footer-links li a:hover {
+	text-decoration: none;
+	color: #FFD166;
+}
+
+/* social icons hover */
+footer.footer .social-icons i:hover:before {
+	background: #FFD166;
+    color: #26547C;
 }
 
 .powered-by a {
@@ -123,10 +141,6 @@ button.control_prev {
     background: #26547C;
 }
 
-.section-header h2 {
-    color: #26547C;
-    font-family: bree-serif, sans-serif;
-}
 
 .services-wrap p {
     color: #26547C;
